@@ -13,7 +13,7 @@ public class Main {
         } else {
             return false;
         }
-    }//action try try try again
+    }
 
     public static boolean hasTeen(int firstAge, int secondAge, int thirdAge) {
         return (firstAge >= 13 && firstAge <= 19) || (secondAge >= 13 && secondAge <= 19) || (thirdAge >= 13 && thirdAge <= 19);
@@ -42,7 +42,7 @@ public class Main {
             return -1.0;
         } else {
             return Math.PI * radius * radius;
-            //Math.pow(radius, 2) is the same as radius * radius
+
         }
     }
 }
